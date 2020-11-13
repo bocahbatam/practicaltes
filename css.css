@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(240, 239, 239);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  display:inline-block;
+}
+
+.box {
+  background-color: white;
+  width: 75vw;
+  padding: 48px;
+  margin: 16px auto;
+  border-radius: 8px;
+}
+
+.header {
+  display:grid;
+  grid-template-columns: 40% 60%;
+}
+
+.header-left {
+  display: grid;
+  align-items: center;
+  font-size: 32px;
+}
+
+.first-name {
+  font-weight: 400;
+  margin: 0;
+}
+
+.last-name {
+  font-weight: 200;
+  margin: 0;
+}
+.img-circle {
+  border-radius: 50%;
+  height:25vh;
+  weight:30vw;
+}
+.header-right {
+  width: 45vw;
+  display: grid;
+  justify-items: end;
+}
+
+.header-right p {
+  display: inline;
+}
+
+.edu-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.edu-left {
+  justify-items: left;
+  align-items: center;
+  font-weight: bold;
+}
+
+.edu-right {
+  width: 37vw;
+  display: grid;
+  justify-items: end;
+  font-weight: bold;
+}
+.icon {
+  color: rgb(190, 190, 190);
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.grey {
+  background: rgb(133, 133, 133);
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+table {
+  border: 2px solid black;
+  margin: 8px 0;
+  width: 75vw;
+  text-align:center;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 6px;
+}
